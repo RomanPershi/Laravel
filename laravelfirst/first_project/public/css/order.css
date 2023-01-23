@@ -1,0 +1,50 @@
+.order_block {
+    color: #fff;
+    margin-left: 25%;
+    margin-right: 4%;
+    height: 100%;
+    width: 100%;
+}
+
+.address_block {
+    font-size: 18px;
+    padding-top: 150px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+#map {
+    width: 400px;
+    height: 300px;
+}
+.buttons_block{
+    padding-bottom: 20px;
+}
+.choice_cart{
+    transition-duration: 0.02s;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    color: #ff0099;
+    border:none;
+}
+.order_button{
+    padding-top: 15px;
+}
+
+.map_block{
+    margin-top: 20px;
+}
+#alert_pickup{padding-top: 15px;}
+
+.inputs{
+    display: none;
+}
+.calendar{
+    outline: none;
+    border:none;
+    text-decoration: none;
+    display: block;
+}

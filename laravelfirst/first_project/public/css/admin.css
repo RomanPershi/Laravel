@@ -1,0 +1,65 @@
+.undo, .delete {
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    margin-left: 5px;
+}
+
+.div_foreach {
+    display: flex;
+}
+
+.Product {
+    display: none;
+}
+
+#map {
+    width: 500px;
+    height: 400px;
+}
+
+.success_status {
+    color: #22bb33;
+}
+
+.danger_status {
+    color: #bb2124;
+}
+
+.product_img {
+    display: none;
+    margin-top: 5px;
+    height: 100px;
+    width: 150px;
+}
+
+.Product_scroll {
+    background-color: #007bff;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    width: 200px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.pagination_menu {
+    margin-top: 20px;
+}
+
+.fa-times {
+    color: #C70000;
+}
+
+@media (max-width: 500px) {
+    .characteristics_value {
+        width: 80%;
+    }
+}

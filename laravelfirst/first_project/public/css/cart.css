@@ -1,0 +1,52 @@
+.empty_cart {
+    position: absolute;
+    font-size: 52px;
+    color: #ff0099;
+    top:20%;
+    left: 40%;
+}
+
+.basked_price{
+    top: 30%;
+    margin-right: 10%;
+    position: fixed;
+    right: 0;
+    color:#fff;
+}
+
+.create_order{
+    color:#fff;
+    transition-duration: 0.2s;
+    font-size: 24px;
+    background-color: #85bb65;
+    border-radius: 9px;
+    height: 65px;
+    width: 230px;
+}
+
+.create_order:hover{
+    font-size: 32px;
+}
+
+.basked_title_price{
+ font-size: 24px;
+}
+
+@media (max-width: 1400px) {
+    .basked_price{
+        margin-right: 3%;
+    }
+    .create_order{
+        width: 200px;
+        font-size: 20px;
+    }
+    .create_order:hover{
+        font-size: 24px;
+    }
+}
+@media (max-width: 650px) {
+    .empty_cart{
+        top: 50%;
+        left: 10%;
+    }
+}

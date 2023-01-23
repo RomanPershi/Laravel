@@ -1,0 +1,95 @@
+.container_slider_css {
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.photo_slider_css {
+    position: absolute;
+    animation: round 16s infinite;
+    opacity: 0;
+    width: 100%;
+}
+.slider_block{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.ghost-button {
+    transition-duration: 0.2s;
+    top: 450px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 45px;
+    color: #85bb65;
+    border: 5px solid #85bb65;
+    border-radius: 7px;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: transparent;
+}
+.ghost-button:hover,
+.ghost-button:active {
+    background-color: #85bb65;
+    border: none;
+    font-size: 24px;
+    color:#fff;
+}
+@keyframes round {
+    25% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+    }
+}
+img:nth-child(1) {
+    animation-delay: 12s;
+}
+
+img:nth-child(2) {
+    animation-delay: 8s;
+}
+
+img:nth-child(3) {
+    animation-delay: 4s;
+}
+
+img:nth-child(4) {
+    animation-delay: 0s;
+}
+
+@media(min-width:0px) and (max-width:320px) {
+    /* совсем маленькие экраны андроидов */
+    .container_slider_css{
+        width: 80%;
+        height: 190px;
+    }
+}
+
+@media(min-width:321px) and (max-width:480px) {
+    /* популярные разрешения смартфонов уже более позднего поколения андроид */
+    .container_slider_css{
+        width: 90%;
+        height: 250px;
+    }
+}
+
+@media (max-width: 700px) {
+    .ghost-button{
+        top: 75%;
+    }
+}

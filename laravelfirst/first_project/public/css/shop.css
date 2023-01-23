@@ -1,0 +1,47 @@
+
+.main_shop {
+    background: linear-gradient(180deg, #0a002c 99%, #E3267A);
+    display: flex;
+    width: 100%;
+    min-height: 91.1vh;
+    padding-bottom: 10px;
+}
+
+.pagination > li > a,
+.pagination > li > span, .pagination .disabled span,
+.pagination .disabled a,
+.pagination .disabled a:hover {
+    transition-duration: 0.1s;
+    color: #E3267A;
+    background-color: transparent;
+    border: solid #E3267A 1px;
+}
+
+.pagination > li > a:hover {
+    color: #fff;
+    background-color: #E3267A;
+    border: solid #E3267A 1px;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: #E3267A;
+    border-color: #E3267A;
+}
+
+.pagination > li > a:active,
+.pagination > li > span:active, .pagination .disabled span:active,
+.pagination .disabled a:active,
+.pagination > li > a:focus,
+.pagination > li > span:focus, .pagination .disabled span:focus,
+.pagination .disabled a:focus{
+    color: #fff;
+    background-color: #E3267A;
+    border: solid #E3267A 1px;
+    box-shadow:0 0 10px #E3267A;
+}
+

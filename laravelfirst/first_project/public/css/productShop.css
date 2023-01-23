@@ -1,0 +1,140 @@
+.product_form {
+    width: 70%;
+    height: 250px;
+    display: flex;
+    overflow: hidden;
+    margin-top: 100px;
+    background-color: transparent;
+}
+
+.add_product {
+    display: flex;
+}
+
+.price {
+    margin-left: 5%;
+    font-size: 26px;
+    color: #85bb65;
+}
+
+.basked_add, .basked_remove {
+    transition-duration: 0.2s;
+    font-size: 17px;
+    border-radius: 9px;
+    height: 45px;
+    width: 180px;
+}
+
+.basked_add:hover {
+    font-size: 20px;
+    color: #fff;
+    background-color: #85bb65;
+}
+
+.basked_remove:hover {
+    font-size: 20px;
+    color: #fff;
+    background-color: #ff3333;
+}
+
+
+.product_block {
+    margin-left: 25%;
+    margin-right: 4%;
+    height: 100%;
+    width: 100%;
+}
+
+.product_photo {
+    margin-top: 25px;
+    margin-left: 1%;
+}
+
+.form_link {
+    text-decoration: none;
+    transition-duration: 0.15s;
+    color: #fff;
+    font-size: 18px;
+}
+
+.form_link:hover {
+    color: #fff;
+    transition-duration: 0.1s;
+    opacity: 0.7;
+}
+
+.product_info {
+    margin-top: 25px;
+    margin-left: 5%;
+}
+
+.img_block {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+.product_count {
+    margin-top: 100px;
+    display: flex;
+}
+
+.count_number {
+    font-size: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.sign_button[sign=plus]:hover {
+    color: #22bb33;
+}
+
+.sign_button[sign=minus]:hover {
+    color: #bb2124;
+}
+
+.sign_button {
+    transition-duration: 0.15s;
+    color: black;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size: 20px;
+}
+
+.trash {
+    transition-duration: 0.15s;
+    color: black;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size: 20px;
+}
+
+.trash_block {
+    margin-left: 10%;
+}
+
+.trash:hover {
+    color: #bb2124;
+}
+
+@media (max-width: 800px) {
+    .product_form {
+        width: 100%;
+    }
+    .product_block{
+        margin-left: 2%;
+    }
+}
+
+@media (max-width: 500px) {
+    .img_block {
+        width: 100px;
+        height: 100px;
+    }
+}

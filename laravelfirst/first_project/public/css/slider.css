@@ -1,0 +1,53 @@
+.between_input {
+    display: flex;
+}
+
+.slider_title {
+    font-size: 16px;
+    color: #c2c7d0;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.place_between {
+    width: 20%;
+}
+
+.checklist {
+    display: flex;
+    color: #c2c7d0;
+    cursor: pointer;
+}
+
+.checklist:hover .checkname {
+    color: #fff;
+    font-weight: bold;
+}
+
+.checkname {
+    margin-left: 5%;
+    font-size: 18px;
+}
+
+.list {
+    display: block;
+}
+
+.big_list {
+    display: block;
+}
+
+.select_slider {
+    background: transparent;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-right: 6px;
+    padding: 5px 10px 5px 10px;
+    outline: none;
+}
+
+.option_select {
+    color: black;
+}

@@ -1,0 +1,103 @@
+.between_input {
+    display: flex;
+}
+
+.slider_title {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.place_between {
+    width: 20%;
+}
+
+.checklist {
+    display: flex;
+    color: #FFFAFA;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.checklist:hover .checkname {
+    transition-duration: 0.1s;
+    color:#ff0099;
+}
+
+.checkname {
+    margin-left: 5%;
+    font-size: 18px;
+}
+
+.list {
+    display: block;
+}
+
+.big_list {
+    display: block;
+}
+
+.select_slider {
+    color:#fff;
+    background: transparent;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-right: 6px;
+    padding: 5px 10px 5px 10px;
+    outline: none;
+}
+
+.form-control.form-control-sidebar {
+    background-color: transparent;
+    color: #fff;
+}
+
+.form-control.form-control-sidebar::placeholder {
+    color: #fff;
+}
+.option_select{
+    color:black;
+}
+
+.search_menu {
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: linear-gradient(180deg, #0a002c, #E3267A);
+    width: 20%;
+    height: 91.1vh;
+    position: fixed;
+}
+
+.search_menu::-webkit-scrollbar {
+    width: 8px;
+}
+
+.search_menu::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.search_menu::-webkit-scrollbar-thumb {
+    background-color: #6f42c1;
+    border-radius: 15px;
+}
+
+@media (max-width: 800px) {
+    .search_menu {
+        height: 80vh;
+    }
+}
+    @media (max-width: 800px) {
+        .search_menu{
+            overflow: auto;
+            display: block;
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .main_shop{
+            display: block;
+        }
+}

@@ -1,0 +1,27 @@
+
+.sign {
+    color: #fff;
+    background: linear-gradient(180deg, #0a002c 30%, #E3267A);
+    min-height: 91.1vh;
+}
+
+.card {
+    background: transparent;
+    border: none;
+}
+
+.href_auth {
+    outline: none;
+    text-decoration: none;
+    color: #ff0099;
+}
+
+.slesh {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.href_auth:hover{
+    color: #ff0099;
+    border-bottom: 2px solid #ff0099;
+}
