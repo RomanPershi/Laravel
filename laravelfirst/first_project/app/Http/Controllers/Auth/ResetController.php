@@ -14,7 +14,8 @@ class ResetController extends BaseController
         $all = $request->except('_token');
         if (Hash::check($all['old_pass'], auth()->user()->password)) {
             $this->service->modelUpdate(['password' => Hash::make($all['new_pass'])], auth()->user()->id, new User());
-            dd(1);
+            return redirect()->route('sign');
         }
+        return redirect()->route('sign.reset');
     }
 }
