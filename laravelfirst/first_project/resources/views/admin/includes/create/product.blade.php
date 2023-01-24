@@ -21,7 +21,11 @@
             {{constructBoolProduct('Is Gaming','is_gaming')}}
             {{constructBoolProduct('Number Block','number_block')}}
             {{constructBoolProduct('Silent Keys','is_noising')}}
-            {{constructBoolProduct('Type Connect','type_connect')}}
+            <label>Type Connect</label>
+            <select name="type_connect" class='form-control'>
+                <option value='0'>Wired</option>
+                <option value='1'>Unwired</option>
+            </select>
             <label>Count</label>
             <input type="text" name="count" class="form-control" id="title" placeholder="Count">
             @error('count')
