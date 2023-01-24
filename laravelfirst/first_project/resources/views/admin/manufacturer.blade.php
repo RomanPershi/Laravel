@@ -8,7 +8,7 @@
         @include('admin/includes/create/product')
     @elseif($define == 'User')
         @include('admin/includes/create/user')
-    @elseif('Order')
+    @elseif($define == 'Order')
 
     @else
         @include('admin/includes/create/onlytitle')
